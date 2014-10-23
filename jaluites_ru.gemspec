@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = WebParser::JaluitesRu::VERSION
   s.authors     = %w(Go-Promo Alexander\ Gorbunov)
   s.email       = %w(nmd@go-promo.ru lexgorbunov@gmail.com)
-  s.homepage    = 'https://git.nnbs.ru/gem/web_parser-jaluites_ru/tree/master'
+  s.homepage    = 'https://git.nnbs.ru/gem/web_parser-jaluites_ru'
   s.summary     = 'Parser of publications from http://jaluites.ru'
   s.description = 'Parser of publications from http://jaluites.ru'
   s.license     = 'MIT'

@@ -15,7 +15,7 @@ module WebParser
           pub = Hashie::Mash.new(
             title: a_el.try(:innerText),
             datetime: Time.parse((block/'.DateTime').first.try(:innerText)),
-            content: (block/'.Photo').first.try(:innerText).strip,
+            lead: (block/'.Photo').first.try(:innerText).strip,
             link: URI.join(MAIN_PAGE_URL, a_el[:href]).to_s
           )
           result << pub

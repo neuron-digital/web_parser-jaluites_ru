@@ -1,6 +1,6 @@
 ## web_parser-jaluites_ru
 
-##### web_parser-jaluites_ru - gem для получения информации о жалобах с портала http://jaluites.ru
+##### gem для получения информации о жалобах с портала http://jaluites.ru
 ---
 
 ### Установка
